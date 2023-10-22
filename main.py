@@ -1,4 +1,3 @@
-# juego
 import pygame
 from player import Player
 from enemy import Enemy
@@ -17,7 +16,7 @@ game_over = False
 
 # Inicializar la pantalla
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Shooting Game")
+pygame.display.set_caption("combate")
 
 # Cargar la imagen de fondo
 background = pygame.image.load("background.png")
